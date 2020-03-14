@@ -1,0 +1,165 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  background-color: rgba(78, 77, 77, 0.575);
+}
+
+.top-bg img {
+  width: 100%;
+  height: auto;
+}
+
+.fa-cog {
+  color: white!important;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  border-color: white!important;
+}
+/* .navigation {
+  text-align: right;
+} */
+
+.nav-link {
+  color: white!important;
+}
+
+.nav-link:hover {
+  color: #1eaaba!important;
+}
+
+.nav-item {
+  padding-right: 1rem;
+  font-size: 14px;
+}
+
+.top-bg {
+  position: relative;
+}
+
+.top-text {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.top-text h1 {
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+
+.my_photo img {
+  width: 50%;
+  height: 50%;
+  border: 1px solid gray ;
+}
+
+.container h1 {
+  margin-top: 6rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.under_border {
+  width: 200px;
+  background-color: #343a40;
+  height: 1.5px;
+  margin-bottom: 2rem;
+}
+
+.about-area {
+  margin-bottom: 5rem;
+}
+.works-area {
+  background-color: rgba(243, 241, 241, 0.5);
+  padding-top: 1rem;
+}
+
+.text{
+  text-align: center;
+}
+
+.fa-phone, .fa-envelope {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.caption {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgba(78, 77, 77, 0.575);
+  color: white;
+  height: 75px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 75px;
+  width: 100%;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .nav-item {
+    font-size: 14px;
+  }
+  .my_photo img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray ;
+  }
+  .top-text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+  }
+  .top-text h1 {
+    font-size: 1.7rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .nav-item {
+    font-size: 20px;
+  }
+  .top-text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+  }
+  .top-text h1 {
+    font-size: 2.3rem;
+  }
+  .my_photo img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray ;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .top-text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+  }
+  .top-text h1 {
+    font-size: 3rem;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
